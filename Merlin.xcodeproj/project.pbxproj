@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740FC0A1ED005922F162C29D /* MerlinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED42DF4D43563534F9BFBF /* MerlinTests.swift */; };
+		7443CA069B875B3396BEC80A /* MerlinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F30A771A19306DC712EB0E /* MerlinUITests.swift */; };
+		744C719BDF76D210C7432F05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7424432B1CB8824BB04C728C /* ContentView.swift */; };
+		7484308908E75610F30A7030 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74591AB29802B20F6DC3F9E9 /* Preview Assets.xcassets */; };
+		7492D255AECF3857748D4D27 /* MerlinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CEE1C29B34FF983A86B963 /* MerlinApp.swift */; };
+		74D0E7E2A5E8A66432105117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BAF85858703397272E0E77 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7498DD541671B0AF210C262D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746397A02BDB3E7DE7B1B705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742364C80AA558B018EBDDC4;
+			remoteInfo = Merlin;
+		};
+		74FFC05B76DCA3918688E3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746397A02BDB3E7DE7B1B705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742364C80AA558B018EBDDC4;
+			remoteInfo = Merlin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7424432B1CB8824BB04C728C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		744705173D8E497254ED71D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		74591AB29802B20F6DC3F9E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		747DD42B7A067DE3AA883638 /* MerlinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerlinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BAF85858703397272E0E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74CEE1C29B34FF983A86B963 /* MerlinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerlinApp.swift; sourceTree = "<group>"; };
+		74EA299F0CC44B83BB8A9B70 /* Merlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Merlin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EA74FCB26B139788E54577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		74ED42DF4D43563534F9BFBF /* MerlinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerlinTests.swift; sourceTree = "<group>"; };
+		74F30A771A19306DC712EB0E /* MerlinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerlinUITests.swift; sourceTree = "<group>"; };
+		74F6169A5811215FFC7D63EA /* MerlinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerlinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FF1422D2A9AB6EC0901E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7412963E72AE0913455AD211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743250AD3A96E09077F9424A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746701391CC2E1B84D6C29B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		742BF0DB80FA5628603D742B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74EA299F0CC44B83BB8A9B70 /* Merlin.app */,
+				747DD42B7A067DE3AA883638 /* MerlinTests.xctest */,
+				74F6169A5811215FFC7D63EA /* MerlinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7450C9950DBEE5A703B59830 /* MerlinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74EA74FCB26B139788E54577 /* Info.plist */,
+				74F30A771A19306DC712EB0E /* MerlinUITests.swift */,
+			);
+			path = MerlinUITests;
+			sourceTree = "<group>";
+		};
+		746FB6266301ECEF107F8773 /* Merlin */ = {
+			isa = PBXGroup;
+			children = (
+				744705173D8E497254ED71D0 /* Info.plist */,
+				74BAF85858703397272E0E77 /* Assets.xcassets */,
+				748A430EC976016631C00A46 /* Preview Content */,
+				74CEE1C29B34FF983A86B963 /* MerlinApp.swift */,
+				7424432B1CB8824BB04C728C /* ContentView.swift */,
+			);
+			path = Merlin;
+			sourceTree = "<group>";
+		};
+		748A430EC976016631C00A46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74591AB29802B20F6DC3F9E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74C18457D8DF103DE04CA32E = {
+			isa = PBXGroup;
+			children = (
+				742BF0DB80FA5628603D742B /* Products */,
+				746FB6266301ECEF107F8773 /* Merlin */,
+				74D47A94D09B9FC8EDB983B7 /* MerlinTests */,
+				7450C9950DBEE5A703B59830 /* MerlinUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		74D47A94D09B9FC8EDB983B7 /* MerlinTests */ = {
+			isa = PBXGroup;
+			children = (
+				74FF1422D2A9AB6EC0901E93 /* Info.plist */,
+				74ED42DF4D43563534F9BFBF /* MerlinTests.swift */,
+			);
+			path = MerlinTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		742364C80AA558B018EBDDC4 /* Merlin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748F84A1A7C7C086C28A9C3F /* Build configuration list for PBXNativeTarget "Merlin" */;
+			buildPhases = (
+				744D2EB7ECE1860FBEB4B5AD /* Sources */,
+				7412963E72AE0913455AD211 /* Frameworks */,
+				747FF9832EB12D12A30D9D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Merlin;
+			productName = Merlin;
+			productReference = 74EA299F0CC44B83BB8A9B70 /* Merlin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74B148C3871CD214A4B0D301 /* MerlinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744D7B3F4ACAEF9E0855A13B /* Build configuration list for PBXNativeTarget "MerlinUITests" */;
+			buildPhases = (
+				742C351FC2F17CD8FF3B3022 /* Sources */,
+				746701391CC2E1B84D6C29B5 /* Frameworks */,
+				7422724DE6313EAA644341C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74699FCB7A83DFB63AC88572 /* PBXTargetDependency */,
+			);
+			name = MerlinUITests;
+			productName = MerlinUITests;
+			productReference = 74F6169A5811215FFC7D63EA /* MerlinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		74C9E964A5EB0BBDD3B381EC /* MerlinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C5CFD6AF3952AC601C665F /* Build configuration list for PBXNativeTarget "MerlinTests" */;
+			buildPhases = (
+				74107CD40C239FD7E24D0290 /* Sources */,
+				743250AD3A96E09077F9424A /* Frameworks */,
+				74C6974140DA27A95931448A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C39A1E976435F2187750D1 /* PBXTargetDependency */,
+			);
+			name = MerlinTests;
+			productName = MerlinTests;
+			productReference = 747DD42B7A067DE3AA883638 /* MerlinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		746397A02BDB3E7DE7B1B705 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 74671C565D47765087FBCCDD /* Build configuration list for PBXProject "Merlin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74C18457D8DF103DE04CA32E;
+			productRefGroup = 742BF0DB80FA5628603D742B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				742364C80AA558B018EBDDC4 /* Merlin */,
+				74C9E964A5EB0BBDD3B381EC /* MerlinTests */,
+				74B148C3871CD214A4B0D301 /* MerlinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7422724DE6313EAA644341C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747FF9832EB12D12A30D9D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D0E7E2A5E8A66432105117 /* Assets.xcassets in Resources */,
+				7484308908E75610F30A7030 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C6974140DA27A95931448A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74107CD40C239FD7E24D0290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740FC0A1ED005922F162C29D /* MerlinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742C351FC2F17CD8FF3B3022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7443CA069B875B3396BEC80A /* MerlinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744D2EB7ECE1860FBEB4B5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7492D255AECF3857748D4D27 /* MerlinApp.swift in Sources */,
+				744C719BDF76D210C7432F05 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74699FCB7A83DFB63AC88572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742364C80AA558B018EBDDC4 /* Merlin */;
+			targetProxy = 7498DD541671B0AF210C262D /* PBXContainerItemProxy */;
+		};
+		74C39A1E976435F2187750D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742364C80AA558B018EBDDC4 /* Merlin */;
+			targetProxy = 74FFC05B76DCA3918688E3A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7453E3C3200B4C04BE062A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MerlinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ineeza.MerlinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Merlin;
+			};
+			name = Debug;
+		};
+		748220329EB2788A26834AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MerlinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ineeza.MerlinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Merlin;
+			};
+			name = Release;
+		};
+		748C7724769D5AFC79AB0ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_ASSET_PATHS = "\"Merlin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Merlin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ineeza.Merlin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		748DB4BD623462AB114EFA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		748F7B1BDA232F532C6CDC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Merlin.app/Merlin";
+				INFOPLIST_FILE = MerlinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ineeza.MerlinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		74CE78DEDE5BEA86D8BA5BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74F3F6953A97033D05F03179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_ASSET_PATHS = "\"Merlin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Merlin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ineeza.Merlin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74F4F38C088B394B4412AEB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Merlin.app/Merlin";
+				INFOPLIST_FILE = MerlinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ineeza.MerlinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		744D7B3F4ACAEF9E0855A13B /* Build configuration list for PBXNativeTarget "MerlinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7453E3C3200B4C04BE062A3F /* Debug */,
+				748220329EB2788A26834AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74671C565D47765087FBCCDD /* Build configuration list for PBXProject "Merlin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CE78DEDE5BEA86D8BA5BF7 /* Debug */,
+				748DB4BD623462AB114EFA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		748F84A1A7C7C086C28A9C3F /* Build configuration list for PBXNativeTarget "Merlin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F3F6953A97033D05F03179 /* Debug */,
+				748C7724769D5AFC79AB0ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74C5CFD6AF3952AC601C665F /* Build configuration list for PBXNativeTarget "MerlinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748F7B1BDA232F532C6CDC8C /* Debug */,
+				74F4F38C088B394B4412AEB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 746397A02BDB3E7DE7B1B705 /* Project object */;
+}
