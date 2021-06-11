@@ -84,20 +84,19 @@ struct Chart : UIViewRepresentable {
     func addData(param: [ChartDataEntry]) -> LineChartData{
         let data: LineChartData = LineChartData()
         let dataSet = LineChartDataSet(entries: param, label: "DataSet 1")
-        dataSet.colors = [NSUIColor.green]
         dataSet.label = "USD"
-        dataSet.axisDependency = .left
-
-        dataSet.drawCirclesEnabled = false
+        dataSet.lineDashLengths = nil
+        dataSet.highlightLineDashLengths = nil
+        dataSet.setColors(.green)
+        dataSet.setCircleColor(.green)
         dataSet.lineWidth = 2
-        dataSet.circleRadius = 3
-        dataSet.fillAlpha = 1
-        dataSet.drawFilledEnabled = true
-        dataSet.fillColor = .green
-        dataSet.highlightColor = UIColor(red: 244/255, green: 117/255, blue: 117/255, alpha: 0)
+        dataSet.circleRadius = 6
         dataSet.drawCircleHoleEnabled = false
+        dataSet.valueFont = .systemFont(ofSize: 10)
+        dataSet.formLineDashLengths = nil
+        dataSet.formLineWidth = 4
+        dataSet.formSize = 15
         data.addDataSet(dataSet)
-        
         
         return data
     }
