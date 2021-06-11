@@ -1,0 +1,32 @@
+query Token($date: [ISO8601DateTime!], $baseAddress: String!, $quoteAddress: String!, $interval: Int) {
+  ethereum(network: bsc) {
+    dexTrades(
+      date: {between: $date}
+      baseCurrency: {is: $baseAddress}
+      quoteCurrency: {is: $quoteAddress}
+    ) {
+      timeInterval {
+        day(format: "%FT%TZ", count: $interval)
+      }
+      buyCurrency: baseCurrency {
+        symbol
+        address
+      }
+      buyAmount: baseAmount
+      buyAmountInUsd: baseAmount
+      sellCurrency: quoteCurrency {
+        symbol
+        address
+      }
+      sellAmountInUsd: quoteAmount
+      tradeAmount(in: USD)
+      volume: quoteAmount
+      trades: count
+      high: quotePrice(calculate: maximum)
+      low: quotePrice(calculate: minimum)
+      open: minimum(of: block, get: quote_price)
+      close: maximum(of: block, get: quote_price)
+      quotePrice
+    }
+  }
+}

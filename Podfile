@@ -7,6 +7,8 @@ target 'Merlin' do
 
   # Pods for Merlin
   pod 'Charts'
+  pod 'Apollo'
+  pod 'Apollo/WebSocket'
 
   target 'MerlinTests' do
     inherit! :search_paths

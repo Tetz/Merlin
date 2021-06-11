@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		1319CAD92672362D00DB5E9C /* Pods_Merlin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2E4850B3EE0B8F6FE9233D /* Pods_Merlin.framework */; };
 		13B25DD72672377D00DCD40C /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B25DD62672377D00DCD40C /* Charts.framework */; };
+		13B25DDC267308ED00DCD40C /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B25DDA267308ED00DCD40C /* Apollo.framework */; };
+		13B25DDE267308ED00DCD40C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B25DDB267308ED00DCD40C /* Starscream.framework */; };
+		13B25DE22673186000DCD40C /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 13B25DE12673186000DCD40C /* schema.json */; };
+		13B25DE42673195600DCD40C /* token.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 13B25DE32673195600DCD40C /* token.graphql */; };
+		13B25DE6267321EF00DCD40C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B25DE5267321EF00DCD40C /* API.swift */; };
+		13B25DE8267323DD00DCD40C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B25DE7267323DD00DCD40C /* Network.swift */; };
 		1EB115108FA6EAAD4A82805B /* Pods_Merlin_MerlinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2EAB4A055A1BE18F503919 /* Pods_Merlin_MerlinUITests.framework */; };
 		6FEDD34C3F20F211C74CB713 /* Pods_MerlinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B1D13FBC5DF80620B0C452 /* Pods_MerlinTests.framework */; };
 		740FC0A1ED005922F162C29D /* MerlinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED42DF4D43563534F9BFBF /* MerlinTests.swift */; };
@@ -39,6 +45,12 @@
 /* Begin PBXFileReference section */
 		00653D7248CEF8E7C7662AD1 /* Pods-Merlin-MerlinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merlin-MerlinUITests.release.xcconfig"; path = "Target Support Files/Pods-Merlin-MerlinUITests/Pods-Merlin-MerlinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		13B25DD62672377D00DCD40C /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B25DDA267308ED00DCD40C /* Apollo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Apollo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B25DDB267308ED00DCD40C /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B25DE12673186000DCD40C /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		13B25DE32673195600DCD40C /* token.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = token.graphql; sourceTree = "<group>"; };
+		13B25DE5267321EF00DCD40C /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		13B25DE7267323DD00DCD40C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		22AE1C3DE8738AF3EDF834E2 /* Pods-Merlin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merlin.release.xcconfig"; path = "Target Support Files/Pods-Merlin/Pods-Merlin.release.xcconfig"; sourceTree = "<group>"; };
 		3BD69E785ADEDA4A63CC6DB3 /* Pods-MerlinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerlinTests.release.xcconfig"; path = "Target Support Files/Pods-MerlinTests/Pods-MerlinTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E2E4850B3EE0B8F6FE9233D /* Pods_Merlin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Merlin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B25DDC267308ED00DCD40C /* Apollo.framework in Frameworks */,
+				13B25DDE267308ED00DCD40C /* Starscream.framework in Frameworks */,
 				1319CAD92672362D00DB5E9C /* Pods_Merlin.framework in Frameworks */,
 				13B25DD72672377D00DCD40C /* Charts.framework in Frameworks */,
 			);
@@ -116,7 +130,11 @@
 				74BAF85858703397272E0E77 /* Assets.xcassets */,
 				748A430EC976016631C00A46 /* Preview Content */,
 				74CEE1C29B34FF983A86B963 /* MerlinApp.swift */,
+				13B25DE12673186000DCD40C /* schema.json */,
 				7424432B1CB8824BB04C728C /* ContentView.swift */,
+				13B25DE5267321EF00DCD40C /* API.swift */,
+				13B25DE32673195600DCD40C /* token.graphql */,
+				13B25DE7267323DD00DCD40C /* Network.swift */,
 			);
 			path = Merlin;
 			sourceTree = "<group>";
@@ -166,6 +184,8 @@
 		E4F2295ADE079306743058A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13B25DDA267308ED00DCD40C /* Apollo.framework */,
+				13B25DDB267308ED00DCD40C /* Starscream.framework */,
 				13B25DD62672377D00DCD40C /* Charts.framework */,
 				5E2E4850B3EE0B8F6FE9233D /* Pods_Merlin.framework */,
 				EB2EAB4A055A1BE18F503919 /* Pods_Merlin_MerlinUITests.framework */,
@@ -276,7 +296,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D0E7E2A5E8A66432105117 /* Assets.xcassets in Resources */,
+				13B25DE22673186000DCD40C /* schema.json in Resources */,
 				7484308908E75610F30A7030 /* Preview Assets.xcassets in Resources */,
+				13B25DE42673195600DCD40C /* token.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,11 +363,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Merlin-MerlinUITests/Pods-Merlin-MerlinUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -381,11 +407,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Merlin/Pods-Merlin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -416,6 +446,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7492D255AECF3857748D4D27 /* MerlinApp.swift in Sources */,
+				13B25DE6267321EF00DCD40C /* API.swift in Sources */,
+				13B25DE8267323DD00DCD40C /* Network.swift in Sources */,
 				744C719BDF76D210C7432F05 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

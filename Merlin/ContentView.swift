@@ -8,6 +8,7 @@
 
 import Charts
 import SwiftUI
+import Apollo
 
 struct ContentView: View {
     
@@ -44,6 +45,16 @@ struct Bar : UIViewRepresentable {
     }
     
     func addData() -> LineChartData{
+        print("=== Debug ===")
+        Network.shared.apollo.fetch(query: TokenQuery(date: ["2021-05-15","2021-06-11"], baseAddress: "0xda360309c59cb8c434b28a91b823344a96444278", quoteAddress: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", interval: 1)) { result in
+          switch result {
+          case .success(let graphQLResult):
+            print("Success! Result: \(graphQLResult)")
+          case .failure(let error):
+            print("Failure! Error: \(error)")
+          }
+        }
+        
         let count = 10
         let range = UInt32(100)
         let yVals1 = (0..<count).map { (i) -> ChartDataEntry in

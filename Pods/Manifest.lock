@@ -1,18 +1,31 @@
 PODS:
+  - Apollo (0.43.0):
+    - Apollo/Core (= 0.43.0)
+  - Apollo/Core (0.43.0)
+  - Apollo/WebSocket (0.43.0):
+    - Apollo/Core
+    - Starscream (~> 4.0.4)
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
+  - Starscream (4.0.4)
 
 DEPENDENCIES:
+  - Apollo
+  - Apollo/WebSocket
   - Charts
 
 SPEC REPOS:
   trunk:
+    - Apollo
     - Charts
+    - Starscream
 
 SPEC CHECKSUMS:
+  Apollo: d9c43854f6504f8ebcc741117c17a84aaa396577
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
-PODFILE CHECKSUM: 1139dc7a38df1ecc7f3d47b038d2abdd434a4a3d
+PODFILE CHECKSUM: e8f78a26a5c1c9ab273d99122823a12330482890
 
 COCOAPODS: 1.10.1
