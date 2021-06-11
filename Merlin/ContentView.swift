@@ -20,8 +20,11 @@ struct ContentView: View {
         TextField("Type your token address", text: $textEntered)
             .padding()
             .textFieldStyle(RoundedBorderTextFieldStyle())
-            
-        Chart()
+            .onChange(of: textEntered) {
+                print($0)
+                textEntered = $0
+            }
+            Chart(textEntered: $textEntered)
         Spacer()
         }
     }
@@ -34,6 +37,8 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 struct Chart : UIViewRepresentable {
+    
+    @Binding var textEntered: String
     
     func makeUIView(context: Context) -> LineChartView {
         let chart = LineChartView()
@@ -56,7 +61,7 @@ struct Chart : UIViewRepresentable {
         }
         let sortedDays = Array(days.reversed())
         
-        Network.shared.apollo.fetch(query: TokenQuery(date: [formatter.string(from: startDate), formatter.string(from: endDate)], baseAddress: "0xda360309c59cb8c434b28a91b823344a96444278", quoteAddress: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", interval: 1)) { result in
+        Network.shared.apollo.fetch(query: TokenQuery(date: [formatter.string(from: startDate), formatter.string(from: endDate)], baseAddress: textEntered, quoteAddress: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", interval: 1)) { result in
           switch result {
           case .success(let graphQLResult):
             let tokens = graphQLResult.data?.ethereum?.dexTrades
